@@ -6,7 +6,7 @@ spring:
       enabled: true
       uri: http://localhost:7000    
       label: master
-      #uri: ${CONFIG_SERVER_URI://localhost:7000}
+     # uri: ${CONFIG_SERVER_URI://localhost:7000}
   banner:
     location: classpath:banner/banner.txt
     image:
